@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ScannerExample {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);       //scanner 변수 선언 <- Scanner 객체 생서
+        Scanner scanner = new Scanner(System.in);       //scanner 변수 선언 <- Scanner 객체 생성
 
         System.out.print("x 값 입력: ");
         String strX = scanner.nextLine();
